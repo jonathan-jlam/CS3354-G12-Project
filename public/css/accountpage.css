@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    background-color: orange;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'roboto', sans-serif;
+}
+
+.logout {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background: darkgreen;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.logout:hover {
+    background-color: seagreen;
+}
+
+.user-title {
+    position: absolute;
+    left: 40px;
+    top: 10px;
+}
+
+.user-title-name {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 800;
+}

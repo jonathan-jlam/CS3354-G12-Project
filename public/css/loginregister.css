@@ -1,0 +1,101 @@
+body {
+    position: relative;
+    width: 100%;
+    max-width: 195vh;
+    height: auto;
+    min-height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../images/backgroundimg-transformed.png');
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.form {
+    height: auto;
+    width: 600px;
+    position: absolute;
+    right: 50px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(211, 123, 9);
+    color: #000;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+
+.heading {
+    text-align: center;
+    font-size: 70px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.app-title {
+    position: absolute;
+    left: 100px;
+    top: 20px;
+    background-color: green;
+    border-radius: 10px;
+    opacity: 1.0;
+    width: 100%;
+}
+
+.app-title h1 {
+    margin: 1%;
+    font-weight: bold;
+    color: #000000;
+}
+
+input,
+.submit-btn {
+    height: 35px;
+    width: 80%;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.25);
+    border: none;
+    color: #fff;
+    padding: 15px;
+    transition: 0.8s;
+}
+
+input::placeholder {
+    color: #fff;
+}
+
+input:focus,
+.submit-btn:hover {
+    background: #fff;
+    color: #000;
+}
+
+input:focus::placeholder {
+    color: #000;
+}
+
+.submit-btn {
+    width: auto;
+    padding: 0 20px;
+    margin: 50px auto 0;
+    cursor: pointer;
+}
+
+.link {
+    text-align: center;
+    color: rgb(24, 19, 19);
+    display: block;
+    margin: 30px auto;
+    transition: 0.5s;
+}
+
+.link:hover {
+    color: #fff;
+}
+
+.error {
+    color: red;
+}
