@@ -24,14 +24,14 @@ body {
     padding: 10px 20px;
     font-size: 16px;
     color: #fff;
-    background: darkgreen;
+    background: #377E22;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.3s;
     border-radius: 5px;
 }
 
 .logout:hover {
-    background-color: seagreen;
+    background-color: rgb(60, 178, 60);
 }
 
 .user-title {
@@ -45,3 +45,209 @@ body {
     color: #fff;
     font-weight: 800;
 }
+
+.dropbtn {
+    background-color: #377E22;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    min-width: 180px;
+    transition: 0.3s;
+    width: 200px;
+    margin: 0 auto;
+    display: inline;
+  }
+
+.dropbtn:hover {
+    background-color: rgb(60, 178, 60);
+}
+
+  .dropdown {
+    position: absolute;
+    left: 40px;
+    top: 80px;
+    display: inline;
+  }
+
+  .dropdown-major {
+    display: inline;
+  }
+
+  #swap-btn {
+    position: absolute;
+    top:140px;
+    left:40px;
+    cursor: pointer;
+  }
+  
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content2 {
+    display: none;
+    position: relative;
+    background-color: #f1f1f1;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+
+  .dropdown-content2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-creds {
+    display: inline;
+  }
+
+  .generate {
+    display: inline;
+    position: absolute;
+    left: 1120px;
+  }
+
+  .save {
+    display: inline;
+    position: absolute;
+    left: 900px;
+    min-width: 200px;
+    min-height: 50px;
+    text-align: center;
+    color:#f1f1f1;
+
+  }
+
+  .viewplan {
+    display: inline;
+    position: absolute;
+    left: 680px;
+    min-width: 200px;
+    min-height: 50px;
+    text-align: center;
+    color:#f1f1f1;
+
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+
+  .dropdown-major:hover .dropdown-content {display: block;}
+  
+  
+  .dropdown-major:hover .dropbtn {background-color: #3e8e41;}
+
+
+  .dropdown-creds:hover .dropdown-content2 {display: block;}
+  
+  
+  .dropdown-creds:hover .dropbtn {background-color: #3e8e41;}
+
+ 
+  #container0 {
+    position: absolute;
+    top: 200px;
+    width: 80%;
+  }
+
+  #container {
+    position: absolute;
+    top: 240px;
+    width: 80%;
+  }
+
+  #container2 {
+    position: absolute;
+    top: 280px;
+    width: 80%;
+  }
+
+  #container3 {
+    position: absolute;
+    top: 320px;
+    width: 80%;
+ 
+  }
+
+  #container4 {
+    position: absolute;
+    top: 360px;
+    width: 80%;
+ 
+  }
+
+   #container5 {
+    position: absolute;
+    top: 400px;
+    width: 80%;
+ 
+  }
+
+  #container6 {
+    position: absolute;
+    top: 440px;
+    width: 80%;
+  
+  }
+
+  #container7 {
+    position: absolute;
+    top: 480px;
+    width: 80%;
+  }
+
+  #container8 {
+    position: absolute;
+    top: 520px;
+    width: 80%;
+  }
+
+  #container9 {
+    position: absolute;
+    top: 590px;
+    width: 80%;
+  }
+
+  /* Define styles for the four rectangles */
+  .rectangle {
+    width: 12.50%;
+    height: 40px;
+    float: left;
+    background-color: #377E22;
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px solid black;
+  }
+  .rectangle25 {
+    width: 25%;
+    height: 40px;
+    float: left;
+    text-align: center;
+    background-color: #377E22;
+    box-sizing: border-box;
+    border: 2px solid black;
+  }
+
+  #swap-workspace-txt {
+    position: absolute;
+    top: 636px;
+    left: 152px;
+  }

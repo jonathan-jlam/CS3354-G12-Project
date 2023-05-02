@@ -47,6 +47,7 @@ if (user_name == null) { // if no username field, this is the login page
         // check for admin login (FOR TESTING)
         if (email.value == MASTER_USERNAME && password.value == MASTER_PASSWORD) {
             sessionStorage.name = "GA12 Admin";
+            sessionStorage.email = "admin";
             window.location.href = 'index.html';
         } else {
 
@@ -63,6 +64,7 @@ if (user_name == null) { // if no username field, this is the login page
 
                 if (user.email == email.value && user.password == password.value) {
                     sessionStorage.name = user.user_name;
+                    sessionStorage.email = user.email;
                     window.location.href = 'index.html';
                     return;
                 }
